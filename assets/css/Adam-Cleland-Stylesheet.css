@@ -1,0 +1,229 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --transparentPrimaryColor: rgb(32, 33, 33, 0.7);
+  --transparentSecondaryColor: rgb(197, 197, 196, 0.8);
+  --transparentTertiaryColor: rgb(255, 255, 255, 0.8);
+  --transparentQuaternaryColor: rgb(249, 250, 251, 0.7);
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f9fafb;
+}
+
+aside {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: fixed;
+  padding: 25px;
+  z-index: 5;
+  text-align: center;
+  background-color: var(--transparentPrimaryColor);
+}
+
+aside > article {
+  width: 80%;
+  background-color: #202121;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border: #f9fafb 2px solid;
+  border-radius: 10px;
+  color: #f9fafb;
+  padding: 75px 25px;
+  gap: 35px;
+}
+
+aside > article > p {
+  font-size: 1em;
+  font-family: "lato";
+  text-transform: uppercase;
+  width: 100%;
+  line-height: 1;
+}
+
+aside > article > input {
+  width: 80%;
+  padding: 10px 30px;
+}
+
+aside > article > #create-list-button {
+  padding: 15px 30px;
+  font-family: "lato";
+  text-transform: uppercase;
+}
+
+aside > i {
+  width: 40px;
+  height: 40px;
+  font: 900 40px/40px "lato";
+  color: #f9fafb;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+
+main {
+  background-color: #f9fafb;
+  margin-bottom: 0px;
+}
+
+#hero-splash {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  padding: 25vh 0px;
+  font-family: "lato", Helvetica, sans-serif;
+  color: #f9fafb;
+  background-color: #202121;
+}
+
+#hero-splash h3 {
+  font-weight: 900;
+  font-size: 8vw;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url("../images/text-cut-background-2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -10px;
+  background-attachment: fixed;
+  color: #f9fafb;
+  background-color: #f9f9f9;
+}
+
+#hero-splash h4 {
+  font-weight: 700;
+  font-size: 6vw;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url("../images/text-cut-background-2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -10px;
+  background-attachment: fixed;
+  background-color: #f9f9f9;
+}
+
+main ul {
+  width: 100%;
+  padding: 50px 2.5%;
+  background-color: cornsilk;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px 25px;
+  margin-bottom: 0px;
+}
+
+main ul li {
+  flex: 1 1 calc(100% / 2 - 25px);
+  min-height: 125px;
+  max-height: 300px;
+  min-width: 250px;
+  background-color: #f9fafb;
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 5px;
+  font: 600 11pt "lato";
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  word-wrap: normal;
+  overflow-y: auto;
+}
+
+main ul li .add-item-button {
+  position: absolute;
+  top: 90px;
+  width: 25px;
+  height: 25px;
+  left: calc(100% - 35px);
+  transition: 200ms ease-out;
+  display: none;
+}
+
+main ul li:hover .add-item-button {
+  display: block;
+  transition: 200ms ease-in;
+}
+
+main ul li p {
+  line-height: 1.5em;
+  padding: 5px;
+  width: 100%;
+  margin-left: -5px;
+}
+
+main ul li p:hover {
+  background-color: rgb(249, 250, 251, 0.7);
+}
+
+p span {
+  display: none;
+  width: 1.5em;
+  height: 1.5em;
+  color: #f9fafb;
+  background-color: #202121;
+  border-radius: 50%;
+  line-height: 1.5em;
+  text-align: center;
+  font-style: normal;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+}
+
+p:hover span {
+  display: inline-block;
+}
+
+footer {
+  width: 100%;
+  background-color: #202121;
+  height: 125px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+footer ul {
+  display: block;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+footer ul li {
+  display: block;
+  text-align: center;
+  flex: 0 0 50%;
+}
+
+footer ul li:first-of-type {
+  width: 100%;
+  color: #f9fafb;
+  text-align: center;
+  flex: 2 1 100%;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #f9fafb;
+}
