@@ -3,6 +3,8 @@
   padding: 0px;
 }
 
+/* setting some of the colors that i liked to use often  */
+
 :root {
   --transparentPrimaryColor: rgb(32, 33, 33, 0.7);
   --transparentSecondaryColor: rgb(197, 197, 196, 0.8);
@@ -14,6 +16,8 @@ body {
   overflow-x: hidden;
   background-color: #f9fafb;
 }
+
+/* aside / popup stylization begins  */
 
 aside {
   width: 100%;
@@ -72,10 +76,16 @@ aside > i {
   cursor: pointer;
 }
 
+/* aside / popup stylization ends  */
+
+/* main content stylization begins  */
+
 main {
   background-color: #f9fafb;
   margin-bottom: 0px;
 }
+
+/* hero section stylization begins  */
 
 #hero-splash {
   width: 100%;
@@ -116,6 +126,10 @@ main {
   background-attachment: fixed;
   background-color: #f9f9f9;
 }
+
+/* hero section stylization ends  */
+
+/* section for the main ul stylization begins  */
 
 main ul {
   width: 100%;
@@ -192,6 +206,12 @@ p:hover span {
   display: inline-block;
 }
 
+/* section for the main ul stylization ends  */
+
+/* stylization of the main section ends  */
+
+/* stylization of the footer section begins  */
+
 footer {
   width: 100%;
   background-color: #202121;
@@ -227,3 +247,5 @@ footer ul li a {
   text-decoration: none;
   color: #f9fafb;
 }
+
+/* stylization of the footer section ends  */
