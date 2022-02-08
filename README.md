@@ -25,7 +25,7 @@ GitHub Pages : (https://aclelandx.github.io/Day-Planner-Moment-JS-Adam-Cleland/)
 ## Screenshots
 
 <img src="./assets/ScreenShots/sc-1.png" alt="Displays the current date adn the current time; this screen shot shows february 8 2020 5:41:46AM">
-<img src="./assets/screenShots/sc-2.png" alt="Shows the blocks where the time slots have been put in">
+<img src="./assets/ScreenShots/sc-2.png" alt="Shows the blocks where the time slots have been put in">
 <img src="./assets/ScreenShots/sc-3.png" alt="shows the input screen where the user is allowed to add information to the list along with a submit button">
 <img src="./assets/ScreenShots/sc-4.png" alt="Shows random tasks that have been put in on the page">
 <img src="./assets/ScreenShots/sc-5.png" alt="Shows the footer of the webpage along with the rest of the time-blocks that are available.">
